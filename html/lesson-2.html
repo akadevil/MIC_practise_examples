@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/first.css">
+  <link rel="icon" type="image/x-icon" href="../css/cool-cat.gif">
+  <title>Form</title>
+</head>
+<body>
+  <img src="../assets/Bears.png" alt="Pretty img" width="500" height="600">
+  <img src="../css/cool-cat.gif" alt="Pretty img" style="width: 500px;height: 600px;">
+  <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+  <link rel="stylesheet" href="/html/first-web-page.html">
+  <iframe src="first-web-page.html" height="1000" width="1000" title="description"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xbs7FT7dXYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <form action="">
+    <input type="text" name="user_name" value="Nare">
+  </form>
+
+  <form action="/example.html" method="POST">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="">
+    <br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+    <br>
+    <hr>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+    <br>
+    <br>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br>
+    <label for="cars1">Choose a car:</label>
+    <select id="cars1" name="cars1" size="3" multiple>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br>
+    <textarea name="message" rows="10" cols="30">
+    </textarea>
+    <br>
+	  <fieldset>
+	    <legend>Personalia:</legend>
+      <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+      </div>
+	    <label for="lname">Last name: <input type="text" id="lname" name="lname" value="Doe"><br><br></label><br>
+	    
+	  </fieldset>
+    <input type="submit" name="" id="">
+    <br>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+      <option value="Safari">
+      <option value="Safari">
+    </datalist>
+    <input type="number" id="b" name="b" value="50">
+  </form>
+  <button type="button" onclick="alert('hello');">Another way to submit</button>
+</body>
+</html>
